@@ -3,7 +3,7 @@ import json
 import urllib.request
 from pprint import pprint
 
-API_KEY = "435d44089190098edf065f1097266562"
+API_KEY = input("Enter a API key")
 
 city = input("Enter a city name: ")
 url = (
