@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 12.1405,
+        "lat": 54.0887
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 294.94,
+        "feels_like": 295,
+        "temp_min": 294.78,
+        "temp_max": 298.17,
+        "pressure": 1025,
+        "humidity": 70
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.62,
+        "deg": 191,
+        "gust": 4.95
+    },
+    "clouds": {
+        "all": 51
+    },
+    "dt": 1693902961,
+    "sys": {
+        "type": 2,
+        "id": 2044072,
+        "country": "DE",
+        "sunrise": 1693887960,
+        "sunset": 1693936501
+    },
+    "timezone": 7200,
+    "id": 2844588,
+    "name": "Rostock",
+    "cod": 200
+}

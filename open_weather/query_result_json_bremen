@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 8.8078,
+        "lat": 53.0752
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 294.33,
+        "feels_like": 294.36,
+        "temp_min": 293.03,
+        "temp_max": 296.47,
+        "pressure": 1022,
+        "humidity": 71
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.06,
+        "deg": 140
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1693904244,
+    "sys": {
+        "type": 1,
+        "id": 1281,
+        "country": "DE",
+        "sunrise": 1693888855,
+        "sunset": 1693937206
+    },
+    "timezone": 7200,
+    "id": 2944388,
+    "name": "Bremen",
+    "cod": 200
+}
