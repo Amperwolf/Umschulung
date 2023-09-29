@@ -20,8 +20,8 @@ def aufgabe_generieren():
         ergebnis = num_1 * num_2
     else:
         aufgabe = f'{num_1} / {num_2}'
-        ergebnis = num_1 / num_2
-    return aufgabe, ergebnis
+        ergebnis = num_1 // num_2
+    return aufgabe, ergebnis, input_operator
     
 
 def main():
@@ -30,11 +30,13 @@ def main():
     richtige_antworten = 0
     print(f'Let`s get it Started!')
     for _ in range(gesamt_fragen):
-        aufgabe, ergebnis = aufgabe_generieren()
+        aufgabe, ergebnis, input_operator = aufgabe_generieren()
         if versuchen_anzahl == 1:
             print(f'Du hast ein lezter Versuch \n {aufgabe}')
         else:
             print(f'Du hast noch {versuchen_anzahl} Versuchen \n {aufgabe}')
+        if input_operator == '/':
+            print("Gib bitte nur den ganzen Teil ein")
         input_ergebnis = int(input('Antwort: '))
         if input_ergebnis == ergebnis:
             print(f'Deine Antwort ist {input_ergebnis}, und das ist richtig!')
